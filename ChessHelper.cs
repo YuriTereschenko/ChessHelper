@@ -140,7 +140,7 @@ while (repeat == 1)
                MovePawn(xa,ya);
                break;
      }
-     if (status == true) Console.WriteLine("Можно разжать булки, миллорд");
+     if (status == true) Console.WriteLine("В этот ход нечего опасаться, миллорд");
      status = true;
      Console.WriteLine("Нужно проверить еще 1 фигуру? 1 - да, 2 - нет");
      repeat = Convert.ToInt32(Console.ReadLine());
